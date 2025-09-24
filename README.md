@@ -31,7 +31,7 @@ The analysis confirmed the challenges in stabilizing the variance of natural gas
 Despite this, the chosen seasonal ARIMA model provided forecasts for the next 12 months, offering insights into potential price trends for natural gas in the U.S. residential sector.
 
 
-## Financial Time Series Anlaysis: Texas Instruments Incorporated
+## 💹 Financial Time Series Anlaysis: Texas Instruments Incorporated
 
 **Objective**
 
@@ -40,7 +40,7 @@ The main goal of the analysis is to forecast future price movements, with a part
 
 **Data Source**
 
-The dataset was downloaded from Yahoo Finance.
+The dataset was downloaded from [Yahoo Finance](https://finance.yahoo.com/).
 It contains 12,736 daily observations from June 1, 1972 to November 30, 2022, expressed in USD.
 
 **Preliminary Analysis**
