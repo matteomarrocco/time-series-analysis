@@ -1,5 +1,13 @@
 # Time Series Analysis
 
+This repository contains the results of a **university project on time series econometrics**.  
+The work is divided into two main parts, each implemented in **R**:
+
+- `Time Series Economica.R` → 📊 **Economical Time Series Analysis: Natural Gas Price**  
+- `Time Series Finanziaria.R` → 💹 **Financial Time Series Analysis: Texas Instruments Incorporated**
+
+Both analyses focus on **modeling, diagnosing, and forecasting** time series data using econometric and statistical techniques.
+
 ## 📊 Economical Time Series Analysis: Natural Gas Price
 
 **Objective**
