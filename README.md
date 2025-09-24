@@ -51,8 +51,21 @@ The main goal of the analysis is to forecast future price movements, with a part
 The dataset was downloaded from [Yahoo Finance](https://finance.yahoo.com/).
 It contains 12,736 daily observations from June 1, 1972 to November 30, 2022, expressed in USD.
 
-**Preliminary Analysis**
+**Preliminary Analysis**  
 
-The analysis is not conducted on the entire dataset.
-Using the Nyblom stability test, significant parameter instability was detected in the full time series.
-As a result, the dataset was restricted to 1,238 daily observations, covering the period from January 1, 2018 to November 30, 2022, to ensure more reliable modeling and inference.
+The analysis is not conducted on the entire dataset.  
+Using the **Nyblom stability test**, significant parameter instability was detected in the full time series.  
+As a result, the dataset was restricted to **1,238 daily observations**, covering the period from **January 1, 2018 to November 30, 2022**, to ensure more reliable modeling and inference.  
+
+**Methodology**  
+
+- The analysis focused on modeling the **log returns** of Texas Instruments’ stock price.  
+- Several **GARCH-family models** were considered due to their ability to capture **conditional heteroskedasticity** in financial time series.  
+- After model comparison, the most suitable candidates were identified as:  
+  - **GJR-GARCH**  
+  - **TGARCH**  
+- Both models were used to perform volatility forecasting.  
+
+**Conclusion**  
+The analysis did not indicate a clear preference for a single model, as both the **GJR-GARCH** and **TGARCH** approaches provided meaningful insights.  
+Forecasts of the **log returns** suggest relatively **stable expected values**, while forecasts of **volatility** show convergence toward the **unconditional variance** as the time horizon increases.  
